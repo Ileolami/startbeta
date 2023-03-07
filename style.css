@@ -219,6 +219,10 @@ footer a:hover{
     gap: 60px;
     margin: 50px;
 }
+.instructor{
+    flex-direction: column;
+    gap: 40px;
+}
 footer{
     flex-direction: column;
     gap: 60px;
