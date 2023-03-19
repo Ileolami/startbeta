@@ -6,7 +6,7 @@
 body{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
-}
+  }
 nav{
     display: flex;
     gap: 20px;
@@ -33,7 +33,7 @@ nav img{
 .first{
     display: flex;
     justify-content: space-between;
-    margin: 80px;
+      margin: 80px;
         }
 .first h1{
     font-size: 60px;
@@ -80,6 +80,19 @@ nav img{
 }
 .second p{
     font-size: 10px;
+}
+.third{
+    display: flex;
+    gap: 20px;
+    margin: 80px;
+    justify-content: space-around;
+}
+.third img{
+    width: 300px;
+}
+.third img:hover{
+    width: 330px;
+    cursor: default;
 }
 .fourth{
     display: flex;
@@ -153,12 +166,97 @@ color: rgba(18, 18, 18, 0.6);
     border-radius: 8px;
     padding: 30px;
 }
+.seventh{
+    display: flex;
+    align-content: space-around;
+    gap: 100px;
+    margin: 80px;
+}
+.seventh-name{
+    width: 420px;
+    margin-left: 50px;
+}
+.seventh-quote{
+    width: 70px;
+}
+.comment h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3F3F3F ;
+    margin-bottom: 20px;
+}
+.comment h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.comment p{
+    color: #3BAA67;
+    font-size: 12px;
+}
+.eight{
+    background: rgba(244, 162, 97, 0.6);
+    position: relative;
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 0px 250px;
+    padding: 40px;
+    width: 700px;
+    height: 70px;
+}
+.subscribe{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    border: 0.5px solid #112211;
+    background-color: white;
+    border-radius: 10px;
+    right: 30px;
+    top: 20px;
+    padding: 40px;
+    width: 700px;
+    height: 70px; 
+}
+.subscribe h4{
+font-size: 30px;
+font-weight: 700;
+padding-right: 40px;
+}
+form{
+    display: flex;
+    border: #112211 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    height: 40px;
+    width: 300px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+button{
+    border: 1px solid #3BAA67;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    background-color:  #3BAA67;
+width: 252px;
+height: 30px;
+left:  288px;
+top: 17px;
+}
 footer{
-    margin-top: 20px;
-    padding: 100px;
+    padding:100px;
     gap: 100px;
     display: flex;
-left: 0px;
+    left: 0px;
 top: 143px;
 background: #E7EFE3;
 }
@@ -176,7 +274,7 @@ footer a{
 footer a:hover{
     cursor: pointer;
     border-radius: 10px;
-    width: 100px;
+    width: 90px;
     height: 30px;
     background-color: #3BAA67;
     padding: 5px;
@@ -220,6 +318,10 @@ footer a:hover{
     margin: 50px;
 }
 .instructor{
+    flex-direction: column;
+    gap: 40px;
+}
+.seventh{
     flex-direction: column;
     gap: 40px;
 }
